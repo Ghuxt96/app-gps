@@ -47,7 +47,7 @@ export default function MapsScreen({ navigation }) {
         longitudeDelta: 0.4,
     
       }}
-      showsUserLocation
+      showsUserLocation={true}
       showsMyLocationButton={true}
       followUserLocation={true}
       zoomEnabled={true}
